@@ -2,10 +2,48 @@
 
 MaaS provides convenient access to the [Safaricom MPESA Daraja API](https://developer.safaricom.co.ke/apis-explorer) for Developers, Tech Ethusiasts, Companies and Corporates. 
 
-MaaS makes this possible by making all the API's available on Daraja accessible as a Service. The platform also offers a Dashboard to monitor your activity on Daraja, an Android SDK and Webhooks configurations to hook it to your own system with ease! 
+MaaS makes this possible by making all the API's available on Daraja accessible as a Service. The platform also offers a Dashboard to monitor your activity on Daraja, an Android SDK and inbuilt Webhooks configurations to hook it to your own system with ease! 
+
+MaaS is built as a Distributed System, to make sure it is as reliable as it can be! The whole setup is built using Golang, as a Microservice. 
 
 It’s easy. We promise. :rocket:
 
 > MaaS does not replace Daraja in any way, but offer a managed access to Daraja for FREE!
+> The idea is still in Brainstorming & Development Mode, and this repo acts as the project host :rocket:
+> MaaS need to run on a server with SSL enabled, in `PRODUCTION ENV`!
 
 ## Getting Started
+
+Setting up MaaS in your own Infrastructure is relatively easy! You only need to install [Golang]() and [Docker]() if you want to run the setup in Developer Mode, but if you don't intend to modify the setup, you only need to setup [Docker]() in your deployment server. Spinning up the service to life is as easy as 1,2,3!
+
+## MaaS Modules - For Developers
+
+For the developers who feel that they need to work on additional features on the platform, this is a breakdown of how the service is setup. The following modules make up the Micro Services Architecture used:
+
+* mod_authentication
+* mod_safaricom
+* mod_reports
+* mod_callbacks
+* mod_health
+* mod_timeouts
+* mod_api
+
+It is recommended that you run MaaS in SSL Mode, but there is a `DEV ENV` setup that allows you to run the setup in Localhost with SSL disabled for both the server and database level.
+
+## System Design and Setup
+
+MaaS is built using the following tools:
+
+* Golang - Go is a low level programming language with great memory utilization and speed.
+* Postgres DB - Is a common and fast sql database that acts as MaaS datastore
+* Redis - 
+* Docker - Docker takes care of MaaS Deployment with ease without knowing a thing!
+
+
+## Future Additions
+
+We are thinking about adding the following features/tools in the next versions of MaaS
+
+* Support Document Database's e.g MongoDB
+* GraphQL
+
