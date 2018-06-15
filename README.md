@@ -9,12 +9,16 @@ MaaS is built as a Distributed System, to make sure it is as reliable as it can 
 It’s easy. We promise. :rocket:
 
 > MaaS does not replace Daraja in any way, but offer a managed access to Daraja for FREE!
+
 > The idea is still in Brainstorming & Development Mode, and this repo acts as the project host :rocket:
+
 > MaaS need to run on a server with SSL enabled, in `PRODUCTION ENV`!
 
 ## Getting Started
 
-Setting up MaaS in your own Infrastructure is relatively easy! You only need to install [Golang]() and [Docker]() if you want to run the setup in Developer Mode, but if you don't intend to modify the setup, you only need to setup [Docker]() in your deployment server. Spinning up the service to life is as easy as 1,2,3!
+Setting up MaaS in your own Infrastructure is relatively easy! You only need to install [Golang]() and [Docker]() if you want to run the setup in Developer Mode.
+
+If you don't intend to modify the setup, you only need to setup [Docker]() in your deployment server. 
 
 ## MaaS Modules - For Developers
 
@@ -36,7 +40,7 @@ MaaS is built using the following tools:
 
 * Golang - Go is a low level programming language with great memory utilization and speed.
 * Postgres DB - Is a common and fast sql database that acts as MaaS datastore
-* Redis - 
+* Redis - Acts as a cache
 * Docker - Docker takes care of MaaS Deployment with ease without knowing a thing!
 
 
