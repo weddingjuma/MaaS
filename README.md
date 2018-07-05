@@ -24,13 +24,14 @@ If you don't intend to modify the setup, you only need to setup [Docker](https:/
 
 For the developers who feel that they need to work on additional features on the platform, this is a breakdown of how the service is setup. The following modules make up the MaaS:
 
-* mod_authentication
-* mod_safaricom
-* mod_reports
-* mod_callbacks
-* mod_health
-* mod_timeouts
-* mod_api
+- [ ] Auth Module
+- [x] Health Module
+- [ ] Core Module
+- [ ] API Module
+- [ ] Webhooks Module
+- [ ] Dashboard Module
+- [ ] Reports Module
+- [ ] Notifications Module
 
 It is recommended that you run MaaS in SSL Mode, but there is a `DEV ENV` setup that allows you to run the setup in Localhost with SSL disabled for both the server and database level.
 
