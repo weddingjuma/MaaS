@@ -4,7 +4,7 @@ MaaS provides convenient access to the [Safaricom MPESA Daraja API](https://deve
 
 MaaS makes this possible by making all the API's available on Daraja accessible as a Service. The platform also offers a Dashboard to monitor your activity on Daraja, an Android SDK and inbuilt Webhooks configurations to hook it to your own system with ease! 
 
-MaaS is built using [Golang]() , to make sure it is as reliable as it can be due to its great memory utilization and speed!  
+MaaS is built using [Golang](https://golang.org/) , to make sure it is as reliable as it can be due to its great memory utilization and speed!  
 
 It’s easy. We promise. :rocket:
 
@@ -16,9 +16,9 @@ It’s easy. We promise. :rocket:
 
 ## Getting Started
 
-Setting up MaaS in your own Infrastructure is relatively easy! You only need to install [Golang]() and [Docker]() if you want to run the setup in Developer Mode.
+Setting up MaaS in your own Infrastructure is relatively easy! You only need to install [Golang](https://golang.org/) and [Docker](https://www.docker.com/) if you want to run the setup in Developer Mode.
 
-If you don't intend to modify the setup, you only need to setup [Docker]() in your deployment server. 
+If you don't intend to modify the setup, you only need to setup [Docker](https://www.docker.com/) in your deployment server. 
 
 ## MaaS Modules - For Developers
 
