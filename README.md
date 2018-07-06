@@ -24,8 +24,8 @@ If you don't intend to modify the setup, you only need to setup [Docker](https:/
 
 For the developers who feel that they need to work on additional features on the platform, this is a breakdown of how the service is setup. The following modules make up the MaaS:
 
-- [ ] Auth Module
 - [x] Health Module
+- [ ] Auth Module
 - [ ] Core Module
 - [ ] API Module
 - [ ] Webhooks Module
